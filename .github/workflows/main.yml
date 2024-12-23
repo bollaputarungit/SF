@@ -23,7 +23,3 @@ jobs:
           aws-bucket: ${{ secrets.AWS_BUCKET }}
           aws-folder: ${{ secrets.AWS_FOLDER }}
 
-
-              - name: Github Uploader for Salesforce Unified Knowledge
-                uses: zoomin-software/s3-publish@v0.2.1
-            
